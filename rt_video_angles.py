@@ -122,7 +122,7 @@ def main():
 
     # Setup video capture
     # cap, frame = setup_video("notebooks/videos/20250218_170426.mp4")
-    cap, frame = setup_video("rtsp://192.168.0.200:8554/stream")
+    cap, frame = setup_video("rtsp://xxx.xxx.x.xxx:8554/stream")
     
     # Dynamically resize frame for prediction (50% of original size)
     original_size = (frame.shape[1], frame.shape[0])
