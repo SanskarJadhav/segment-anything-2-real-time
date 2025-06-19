@@ -139,7 +139,7 @@ def main():
     )
 
     # Setup video capture
-    cap, frame = setup_video("rtsp://192.168.0.200:8554/stream")
+    cap, frame = setup_video("rtsp://xxx.xxx.x.xxx:8554/stream")
     original_size = (frame.shape[1], frame.shape[0])
     resized_size = (frame.shape[1] // 2, frame.shape[0] // 2)
     frame_resized = cv2.resize(frame, resized_size)
