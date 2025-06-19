@@ -154,8 +154,7 @@ def main():
     )
     
     # Setup video capture
-    # cap, frame = setup_video("rtsp://ektsdrone00777:stream00777@192.168.0.36:8554/streaming/live/1")
-    cap, frame = setup_video("notebooks/videos/20250218_170426.mp4")
+    cap, frame = setup_video("notebooks/videos/aquarium/aquarium.mp4")
     
     # Dynamically resize frame for prediction (50% of original size)
     original_size = (frame.shape[1], frame.shape[0])
